@@ -2,7 +2,7 @@
 
 # Visual Crypto Lab
 
-Visual Crypto Labは、視覺復号型暗号（Visual Cryptography）の原理をインタラクティブに体験できるWebアプリケーションです。画像を複数のノイズのような画像（シェア）に分解し、それらを重ね合わせることで元の画像が浮かび上がる様子をシミュレートします。
+Visual Crypto Labは、視覚復号型暗号（Visual Cryptography）の原理をインタラクティブに体験できるWebアプリケーションです。画像を複数のノイズのような画像（シェア）に分解し、それらを重ね合わせることで元の画像が浮かび上がる様子をシミュレートします。
 
 Demo https://visual-crypto-lab.vercel.app/
 
