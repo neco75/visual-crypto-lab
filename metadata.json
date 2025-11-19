@@ -1,0 +1,5 @@
+{
+  "name": "Visual Crypto Lab",
+  "description": "視覚復号型暗号（Visual Cryptography）を体験できるインタラクティブなラボ。画像をノイズのような「シェア」に分解し、それらを重ね合わせることで秘密の画像を復元します。",
+  "requestFramePermissions": []
+}
