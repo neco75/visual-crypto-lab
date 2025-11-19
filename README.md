@@ -1,20 +1,51 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+このアプリはGemini 3.0を使用して作られました。
 
-# Run and deploy your AI Studio app
+# Visual Crypto Lab
 
-This contains everything you need to run your app locally.
+Visual Crypto Labは、[視覺復号型暗号](https://ja.wikipedia.org/wiki/%E8%A6%96%E8%A6%9A%E5%BE%A9%E5%8F%B7%E5%9E%8B%E6%9A%97%E5%8F%B7)（Visual Cryptography）の原理をインタラクティブに体験できるWebアプリケーションです。画像を複数のノイズのような画像（シェア）に分解し、それらを重ね合わせることで元の画像が浮かび上がる様子をシミュレートします。
 
-View your app in AI Studio: https://ai.studio/apps/drive/17Z9IlxY5h7tuIxpaVhQ3KxW38otAjKFz
+![デモGIF](https://user-images.githubusercontent.com/..../....)  
+*(ここにアプリケーションの動作を示すスクリーンショットやGIFを挿入することを推奨します)*
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## ✨ 主な機能
 
+- **画像のアップロード**: JPGやPNG形式の画像をアップロードして、暗号化の元画像として使用できます。
+- **シェアの生成**: 元画像を2〜4枚のシェア画像に分解します。
+- **カラー/モノクロ対応**: 分解処理をカラーとモノクロで切り替え可能です。
+- **インタラクティブな復元**: 生成されたシェアをドラッグ＆ドロップで自由に動かし、重ね合わせることで画像を復元できます。
+- **自動位置合わせ**: ボタン一つでシェアを中央に揃え、即座に復元結果を確認できます。
+- **シェアの保存**: 生成された各シェア画像をPNGファイルとしてダウンロードできます。
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ 使用技術
+
+- **フロントエンド**: React, TypeScript
+- **ビルドツール**: Vite
+- **UI**: Lucide React (アイコン)
+- **スタイリング**: Tailwind CSS (クラス名から判断)
+
+## 🚀 ローカルでの実行方法
+
+1.  **リポジトリをクローンします**
+    ```bash
+    git clone https://github.com/your-username/visual-crypto-lab.git
+    cd visual-crypto-lab
+    ```
+
+2.  **依存関係をインストールします**
+    ```bash
+    npm install
+    ```
+
+3.  **開発サーバーを起動します**
+    ```bash
+    npm run dev
+    ```
+    ブラウザで `http://localhost:5173` （またはコンソールに表示されたアドレス）にアクセスしてください。
+
+## 📜 利用可能なスクリプト
+
+- `npm run dev`: 開発モードでアプリケーションを起動します。
+- `npm run build`: 本番用にプロジェクトをビルドします。
+- `npm run preview`: ビルドされた本番用ファイルをローカルでプレビューします。
